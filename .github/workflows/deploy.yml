@@ -43,7 +43,7 @@ jobs:
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }} # e.g. ec2-user or ubuntu
-          key: ${{ secrets.EC2_SSH_KEY }}  # should be the entire contents of your .pem file
+          key: ${{ secrets.EC2_KEY }}  # should be the entire contents of your .pem file
           port: 22
           script: |
             docker pull $IMAGE_NAME
