@@ -13,7 +13,6 @@ server:
 #    fetch-registry: false
 #    service-url:
 #      defaultZone: ${EUREKA_SERVER_ADDRESS}
-#update
 
 eureka:
   client:
